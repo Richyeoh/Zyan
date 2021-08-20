@@ -1,7 +1,5 @@
 package chapter01
 
-import javax.swing.plaf.nimbus.State
-
 enum class TokenType {
     IDENTIFIER,
     KEYWORD,
