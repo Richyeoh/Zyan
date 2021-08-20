@@ -284,6 +284,7 @@ class RefResolver(private val program: Program) {
         val calls = body.calls
         calls.forEach { call ->
             visitFunctionCall(call)
+            resolveFunctionCall(call)
         }
     }
 
