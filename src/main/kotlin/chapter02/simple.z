@@ -1,0 +1,5 @@
+fun sayHello() {
+    println("hello, world")
+}
+
+sayHello()
